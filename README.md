@@ -7,7 +7,17 @@ It is actually pretty cool :)
 ---
 
 ### ♦️ Main Topic
-Variadic functions.
+**Variadic functions.**
+
+- What is Variadic Functions?
+
+Variadic function takes indefinite size arity and a variable number of arguments as a parameter. Situations that you do not know how many parameters pass the function.
+
+- What is ellipses (...)?
+
+The ellipsis (...) is part of the C language and indicates that there are 0 or more optional arguments.
+
+
 
 ### ♦️ Handled Conversions
 • **%c** Prints a single character.<br>
