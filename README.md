@@ -11,5 +11,7 @@ Variadic functions.
 
 ### ♦️ Used Functions
 ***ft_putchar*** : write and count charactere printed.
+
 ***ft_putstr*** : write string of char.
+
 ***ft_putnbr*** : print integer .
