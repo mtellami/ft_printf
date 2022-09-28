@@ -10,8 +10,9 @@ It is actually pretty cool :)
 Variadic functions.
 
 ### ♦️ Used Functions
-***ft_putchar*** : write and count charactere printed.
-
-***ft_putstr*** : write string of char.
-
-***ft_putnbr*** : print integer .
+***ft_putchar*** : write and count charactere printed.<br>
+***ft_putstr*** : print string of chars.<br>
+***ft_putnbr*** : print integer .<br>
+***ft_putnbr_u*** : print unsogned integer.<br>
+***ft_puthex*** : print hexadecimal values.<br>
+***stdarg.h elements*** : va_list, va_start, va_end.<br>
