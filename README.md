@@ -31,7 +31,7 @@ The ellipsis (...) is part of the C language and indicates that there are 0 or m
 • **%%** Prints a percent sign.<br>
 
 ### ♦️ Used Functions
-***ft_putchar*** : write and count charactere printed.<br>
+***ft_putchar*** : write a single char.<br>
 ***ft_putstr*** : print string of chars.<br>
 ***ft_putnbr*** : print integer .<br>
 ***ft_putnbr_u*** : print unsogned integer.<br>
