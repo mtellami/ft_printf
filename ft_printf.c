@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtellami <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mtellami <mtellami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/14 21:02:52 by mtellami          #+#    #+#             */
-/*   Updated: 2022/09/19 23:23:02 by mtellami         ###   ########.fr       */
+/*   Created: 2022/10/10 20:26:05 by mtellami          #+#    #+#             */
+/*   Updated: 2022/10/15 03:52:45 by mtellami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	ft_print_type(va_list ap, char type, int *size)
 		ft_putchar('%', size);
 }
 
-int	ft_printf(const char *str, ...)
+int	ft_printf(char *str, ...)
 {
 	va_list	ap;
 	int		size;

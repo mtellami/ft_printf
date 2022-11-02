@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mtellami <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: mtellami <mtellami@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/17 17:32:28 by mtellami          #+#    #+#             */
-/*   Updated: 2022/09/19 20:02:31 by mtellami         ###   ########.fr       */
+/*   Created: 2022/10/13 20:27:46 by mtellami          #+#    #+#             */
+/*   Updated: 2022/10/15 05:01:58 by mtellami         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 void	ft_putstr(char *str, int *size)
 {
-	if (str == NULL)
-		ft_putstr("null", size);
-	while (*str)
-	{
-		ft_putchar(*str, size);
-		str++;
+	if (!str)
+	{	
+		ft_putstr("(null)", size);
+		return ;
 	}
+	while (*str)
+		ft_putchar(*str++, size);
 }
